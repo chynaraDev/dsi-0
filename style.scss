@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+button{
+  transition: .4s;
+  cursor: pointer;
+  border: none;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+//header start
+#header{
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--nav{
+      a{
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+        padding: 40px 50px;
+      }
+      select{
+        border: none;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+      }
+
+    }
+    &--icon{
+      ion-icon{
+        font-size: 25px;
+        color: rgba(31, 46, 53, 0.8);
+      }
+    }
+  }
+
+}
+//header start
+
+//hero start
+#hero{
+  padding: 40px 0;
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 125px;
+
+    &--text {
+      h1 {
+        width: 545px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133.69%;
+        color: #1F2E35;
+      }
+
+      span {
+        color: #EE4248;
+      }
+
+      p {
+        width: 520px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #30444E;
+        padding: 24px 0;
+      }
+
+      button {
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        background: #EE4248;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        padding: 12px 32px;
+      }
+    }
+  }
+}
