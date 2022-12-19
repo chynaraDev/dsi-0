@@ -97,6 +97,7 @@ body{
 }
 //hero end
 
+//samsara start
 #samsara{
   padding: 40px 0;
   background: #F7F7F7;
@@ -127,4 +128,51 @@ body{
     }
   }
 }
+//samsara end
+
+//product start
+#product{
+  padding: 40px 0;
+  .container{
+    h1{
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+      color: #1F2E35;
+    }
+  }
+  .product{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 47px;
+    &--block {
+      h2 {
+        font-weight: 500;
+        font-size: 28px;
+        color: #EE4248;
+        padding: 16px 0;
+      }
+
+      p {
+        width: 319px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #30444E;
+      }
+
+      button {
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        background: #EE4248;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        padding: 8px 16px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+//product end
 
