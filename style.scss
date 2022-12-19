@@ -45,6 +45,7 @@ body{
       ion-icon{
         font-size: 25px;
         color: rgba(31, 46, 53, 0.8);
+        padding-left: 24px;
       }
     }
   }
@@ -176,3 +177,54 @@ body{
 }
 //product end
 
+//footer start
+#footer{
+  padding: 40px 0;
+  .footer{
+    display: flex;
+    align-items: center;
+    &--dsi{
+      h1{
+        font-weight: 500;
+        font-size: 18px;
+        color: #263238;
+        padding: 10px 0 8px 0;
+      }
+      p{
+        width: 317px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #263238;
+      }
+    }
+    &--contact{
+      padding-top: 60px;
+      h1{
+        font-weight: 500;
+        font-size: 24px;
+        color: #263238;
+      }
+      p{
+        width: 269px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #263238;
+        padding: 15px 0 25px 0;
+      }
+    }
+    &--line{
+      width: 1520px;
+      height: 64px;
+      background: #EE4248;
+      margin-left: -17%;
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 22px;
+      }
+    }
+  }
+}
+//footer end
