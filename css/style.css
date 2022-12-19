@@ -82,4 +82,35 @@ body {
   padding: 12px 32px;
 }
 
+#samsara {
+  padding: 40px 0;
+  background: #F7F7F7;
+}
+#samsara .samsara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#samsara .samsara--text {
+  padding-left: 80px;
+}
+#samsara .samsara--text h1 {
+  width: 454px;
+  font-weight: 500;
+  font-size: 32px;
+  color: #1F2E35;
+  padding-top: 57px;
+}
+#samsara .samsara--text span {
+  color: #EE4248;
+}
+#samsara .samsara--text p {
+  width: 520px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+  padding: 24px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
